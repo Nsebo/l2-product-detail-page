@@ -1,0 +1,16 @@
+body {
+  background-color: white;
+}
+.header {
+  background-color: #76e4eb;
+  height: 48px;
+}
+.container {
+  max-width: 987px;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+.hero-banner {
+  background-color: white;
+}
