@@ -2,17 +2,17 @@ body {
   background-color: white;
 }
 .header {
-  background-color: #76e4eb;
-  height: 48px;
-}
-.container {
-  max-width: 987px;
   background-color: transparent;
+}
+.header .container {
+  max-width: 987px;
+  background-color: #76e4eb;
   margin: 0 auto;
+  height: 48px;
 }
 
 .hero-banner {
-  background-color: transparent;
+  background-color: white;
 }
 
 .square {
@@ -21,10 +21,51 @@ body {
   width: 399px;
   margin-bottom: 0;
 
-  margin-right: 20px;
   display: inline-block;
 }
 
 .column:nth-child(2) {
-  margin-right: 0;
+  margin-left: 0;
+}
+
+.one {
+  background-color: #1dcd79;
+  height: 220px;
+  width: 231px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.column:nth-child(3) {
+  margin-bottom: 0;
+  max-width: 987px;
+}
+
+.two {
+  background-color: #1dcd79;
+  height: 220px;
+  width: 231px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.column:nth-child(2) {
+  margin-bottom: 0;
+}
+.three {
+  background-color: #1dcd79;
+  height: 220px;
+  width: 231px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.column:nth-child(3) {
+  margin-bottom: 0;
+}
+.footer {
+  background-color: transparent;
+  display: block;
+}
+
+.footer .container {
+  height: 266px;
+  background-color: #c01887;
 }
