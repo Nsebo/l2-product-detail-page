@@ -22,8 +22,9 @@
     background-color: #315fa4;
     height: 620px;
     width: 399px;
-    margin-bottom: 0;
+
     display: inline-block;
+    margin: 20px;
   }
 
   .column:nth-child(2) {
@@ -48,6 +49,7 @@
     width: 231px;
     margin-bottom: 0;
     display: inline-block;
+    margin: 20px;
   }
   .column:nth-child(2) {
     margin-bottom: 0;
@@ -72,5 +74,6 @@
     background-color: #c01887;
     margin: 0 auto;
     width: 987px;
+    margin: 20px;
   }
 }
