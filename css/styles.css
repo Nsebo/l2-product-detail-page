@@ -1,71 +1,76 @@
-body {
-  background-color: white;
-}
-.header {
-  background-color: transparent;
-}
-.header .container {
-  max-width: 987px;
-  background-color: #76e4eb;
-  margin: 0 auto;
-  height: 48px;
-}
+@media screen and (min-width: 767px) {
+  body {
+    background-color: white;
+  }
 
-.hero-banner {
-  background-color: white;
-}
+  .header {
+    background-color: transparent;
+    height: 48px;
+  }
 
-.square {
-  background-color: #315fa4;
-  height: 620px;
-  width: 399px;
-  margin-bottom: 0;
+  .header {
+    max-width: 987px;
+    background-color: #76e4eb;
+    margin: 0 auto;
+  }
 
-  display: inline-block;
-}
+  .hero-banner {
+    background-color: transparent;
+  }
 
-.column:nth-child(2) {
-  margin-left: 0;
-}
+  .square {
+    background-color: #315fa4;
+    height: 620px;
+    width: 399px;
+    margin-bottom: 0;
+    display: inline-block;
+  }
 
-.one {
-  background-color: #1dcd79;
-  height: 220px;
-  width: 231px;
-  margin-bottom: 0;
-  display: inline-block;
-}
-.column:nth-child(3) {
-  margin-bottom: 0;
-  max-width: 987px;
-}
+  .column:nth-child(2) {
+    margin-left: 0;
+  }
 
-.two {
-  background-color: #1dcd79;
-  height: 220px;
-  width: 231px;
-  margin-bottom: 0;
-  display: inline-block;
-}
-.column:nth-child(2) {
-  margin-bottom: 0;
-}
-.three {
-  background-color: #1dcd79;
-  height: 220px;
-  width: 231px;
-  margin-bottom: 0;
-  display: inline-block;
-}
-.column:nth-child(3) {
-  margin-bottom: 0;
-}
-.footer {
-  background-color: transparent;
-  display: block;
-}
+  .one {
+    background-color: #1dcd79;
+    height: 220px;
+    width: 231px;
+    margin-bottom: 0;
+    display: inline-block;
+  }
+  .column:nth-child(1) {
+    margin-bottom: 0;
+    max-width: 987px;
+  }
 
-.footer .container {
-  height: 266px;
-  background-color: #c01887;
+  .two {
+    background-color: #1dcd79;
+    height: 220px;
+    width: 231px;
+    margin-bottom: 0;
+    display: inline-block;
+  }
+  .column:nth-child(2) {
+    margin-bottom: 0;
+  }
+  .three {
+    background-color: #1dcd79;
+    height: 220px;
+    width: 231px;
+    margin-bottom: 0;
+    display: inline-block;
+  }
+  .column:nth-child(3) {
+    margin-bottom: 0;
+  }
+  .footer {
+    background-color: transparent;
+    display: block;
+  }
+
+  .footer .container {
+    height: 266px;
+    background-color: #c01887;
+    margin: 0 auto;
+    width: 987px;
+  }
 }
